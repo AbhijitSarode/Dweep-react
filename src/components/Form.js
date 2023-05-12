@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+import '../styles/form.css'
 
 function Form() {
     const [registered, setRegister] = useState(false)
@@ -13,7 +14,7 @@ function Form() {
 
   return (
    registered ? thanks : <form onSubmit={handleSubmit} >
-   <input type="text" placeholder="Your email address" required/>
+   <input type="email" placeholder="Your email address" required/>
    <input type='submit' value={"Register Now"}/>
 </form>
 

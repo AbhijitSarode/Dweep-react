@@ -1,0 +1,18 @@
+input[type="email"] {
+    font-weight: 600;
+    color: #888888;
+    font-size: 1.25rem;
+    border: solid black;
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+}
+
+input[type="submit"] {
+    background-color: #282828;
+    font-weight: 600;
+    color: white;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+    border: none;
+}

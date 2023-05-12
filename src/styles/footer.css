@@ -1,0 +1,19 @@
+footer {
+    background-color: #282828;
+    display: flex;
+    color: white;
+    height: 30vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
